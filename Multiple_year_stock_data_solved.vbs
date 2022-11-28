@@ -159,19 +159,12 @@ highvolume = 0
 maxincrease = 0
 maxdecrease = 0
 
+'set column width
+Columns("A:Q").Select
+Selection.Columns.AutoFit
 
 Next ws
 
-End Sub
-Sub Macro1()
-'
-' Macro1 Macro
-'
 
-'
-    Range("K2").Select
-    Selection.Style = "Per cent"
-    Selection.NumberFormat = "0.0%"
-    Selection.NumberFormat = "0.00%"
 End Sub
 
